@@ -81,6 +81,19 @@ NEXT_PUBLIC_API_URL=http://localhost:4000
 NEXT_PUBLIC_WS_URL=ws://localhost:4000
 ```
 
+## Screenshots
+
+### Desktop
+<img width="1600" height="900" alt="01-assignments-desktop" src="https://github.com/user-attachments/assets/5ff57168-a33d-459d-ad37-4e20da05afa7" />
+<img width="1600" height="900" alt="02-create-desktop" src="https://github.com/user-attachments/assets/3c8d3c62-6e02-4363-b436-0534b52d65e8" />
+<img width="1200" height="1600" alt="03-paper-desktop" src="https://github.com/user-attachments/assets/9ebb81dc-6d8c-40d0-a319-2ee7287373cc" />
+
+### Mobile
+<img width="430" height="932" alt="04-assignments-mobile" src="https://github.com/user-attachments/assets/02a4128d-a608-4bfd-9ef9-5589626eb7d9" />
+<img width="430" height="932" alt="05-create-mobile" src="https://github.com/user-attachments/assets/074dede9-4fd1-456b-96a4-47fb3789b44c" />
+<img width="520" height="1200" alt="07-paper-mobile-wide" src="https://github.com/user-attachments/assets/99b37366-4160-4ddb-9004-71bf7451991d" />
+
+
 ## Notes
 
 The backend never sends raw LLM text to the UI. AI output is parsed into a strict `QuestionPaper` object before storage and rendering. When no OpenAI key is configured, the local generator creates deterministic structured output so reviewers can test the full workflow immediately.
